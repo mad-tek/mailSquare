@@ -93,7 +93,7 @@ app.post('/email_processor', jsonParser, function(req, res) {
 //SparkPost
 "use strict";
 
-var key = "734a0c281ffc0844d0822e6e67978672178b216e";
+var key = "sparkpost key here";
 var SparkPost = require("sparkpost");
 var client = new SparkPost(key);
 
